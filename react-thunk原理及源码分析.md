@@ -3,7 +3,7 @@
 ## react-thunk源码分析
 
 #### react-thunk源码：
-```
+```javascript
 function createThunkMiddleware(extraArgument) {
   return ({ dispatch, getState }) => next => action => {
     /**
@@ -36,7 +36,7 @@ export default thunk;
 ```
 
 #### redux中间件处理函数:applyMiddleware.js源码
-```
+```javascript
  // middlewares是传递给applyMiddleware函数的一系列中间件函数
 export default function applyMiddleware(...middlewares) {
   //(...args)就是相当于(reducer, preloadedState)
@@ -75,7 +75,7 @@ export default function applyMiddleware(...middlewares) {
 ```
 
 #### compose.js源码:
-```
+```javascript
 export default function compose(...funcs) {
   //如果没有中间件作为参数传递，直接返回一个函数，接收对应的参数并且返回这个参数
   if (funcs.length === 0) {
