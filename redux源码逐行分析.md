@@ -932,10 +932,10 @@ exports.combineReducers = combineReducers;
 exports.compose = compose;
 exports.createStore = createStore;
 ```
-#### redux中间件原理
+#### redux中间件原理（图来自网络）
 
 ![image](https://github.com/fltenwall/-image/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8E%9F%E7%90%86.jpg)
 
-#### redux完整流程图
+#### redux完整流程图（图来自网络）
 
 ![image](https://github.com/fltenwall/-image/blob/master/%E5%AE%8C%E6%95%B4%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
