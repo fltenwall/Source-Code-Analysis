@@ -1,5 +1,10 @@
 #### 说明：Redux源码ES5版本的逐行解析，所有的英文注释全部做了意译。
 #### 版本：4.0.5
+#### 源码位置
+
+![image](https://github.com/fltenwall/-image/blob/master/%E6%BA%90%E7%A0%81%E7%9B%AE%E5%BD%95.jpg)
+
+
 #### 源码逐行解析（注释逐行翻译）
 ```javascript
 'use strict';
@@ -927,3 +932,10 @@ exports.combineReducers = combineReducers;
 exports.compose = compose;
 exports.createStore = createStore;
 ```
+#### redux中间件原理
+
+![image](https://github.com/fltenwall/-image/blob/master/%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%8E%9F%E7%90%86.jpg)
+
+#### redux完整流程图
+
+![image](https://github.com/fltenwall/-image/blob/master/%E5%AE%8C%E6%95%B4%E6%95%B0%E6%8D%AE%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
